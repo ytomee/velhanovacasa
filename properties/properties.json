@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "T3 no sul de Lisboa",
+        "location": "Murtede",
+        "district": "Cantanhede",
+        "price": 340000,
+        "rating": 3,
+        "shortDescription": "Moderna e elegante, esta moradia oferece um design sofisticado, com acabamentos de alta qualidade e uma arquitetura contemporânea. Ideal para quem procura conforto e exclusividade.",
+        "mainImage": "/images/fodder/1.jpg",
+        "detailsImages": [
+            {"url": "/images/fodder/2.jpg"},
+            {"url": "/images/fodder/3.jpg"}
+        ],
+        "description": [
+            {
+                "title": "Teste",
+                "description": "Moderna e elegante, esta moradia oferece um design sofisticado, com acabamentos de alta qualidade e uma arquitetura contemporânea. Ideal para quem procura conforto e exclusividade."
+            }
+        ],
+        "detailsContainer": [
+            {
+                "label": "Área",
+                "value": "340 m²"
+            },
+            {
+                "label": "Tipologia",
+                "value": "T3"
+            },
+            {
+                "label": "Casas de banho",
+                "value": "2"
+            },
+            {
+                "label": "Cozinha equipada",
+                "value": "Sim"
+            },
+            {
+                "label": "Aquecimento central",
+                "value": "Sim"
+            }
+        ],
+        "detailsContainerDescription": [
+            {
+                "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, officiis quam neque, eveniet consequatur exercitationem."
+            }
+        ],
+        "gallery": [
+            {"url": "/images/fodder/1.jpg"},
+            {"url": "/images/fodder/2.jpg"},
+            {"url": "/images/fodder/3.jpg"},
+            {"url": "/images/fodder/4.jpg"},
+            {"url": "/images/fodder/5.jpg"},
+            {"url": "/images/fodder/6.jpg"},
+            {"url": "/images/fodder/7.jpg"},
+            {"url": "/images/fodder/8.jpg"},
+            {"url": "/images/fodder/9.jpg"},
+            {"url": "/images/fodder/10.jpg"}
+        ],
+        "maps": "urlTeste" 
+    }
+]
