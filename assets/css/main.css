@@ -2641,7 +2641,7 @@ input[type=color] {
   right: 0;
   bottom: 0;
   z-index: 1000;
-  background-color: var(--tp-theme-green);
+  background-color: rgb(242, 241, 238);
 }
 
 .preloader {
@@ -2664,7 +2664,7 @@ input[type=color] {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: var(--tp-common-black);
+  background: #FF481F;
   animation: preloader 1.3s linear infinite;
   -webkit-animation: preloader 1.3s linear infinite;
 }
@@ -4694,6 +4694,20 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-header-lang a:hover {
   color: var(--tp-common-white);
+}
+.tp-btn-socials {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1;
+  transition: 0.1s;
+  padding: 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--tp-common-black);
+  font-family: var(--tp-ff-clash-medium);
+}
+.tp-btn-socials:hover {
+  color: var(--tp-common-red-2);
 }
 @media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-header-box {
