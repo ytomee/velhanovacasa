@@ -2770,6 +2770,10 @@ input[type=color] {
   background-color: var(--tp-common-paste-2);
 }
 
+.ar-image-cover {
+  object-fit: cover;
+}
+
 [data-bg-color=footer-bg-grey] {
   background-color: var(--tp-footer-grey-1);
 }
@@ -13473,7 +13477,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 .ar-hero-title i {
   font-style: normal;
-  padding-left: 100px;
+  padding-inline: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .ar-hero-title i {
@@ -27472,7 +27476,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 .ar-step-item {
   height: 100%;
-  padding: 100px 40px 60px 40px;
+  padding: 30px 40px 60px 40px;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
