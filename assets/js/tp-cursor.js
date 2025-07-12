@@ -97,7 +97,7 @@ if ($("body").not(".is-mobile").hasClass("tp-magic-cursor")) {
                 $("#ball").addClass("with-blur");
                 $ball.append('<div class="ball-view"></div>');
                 $(".ball-view").append($(this).attr("data-cursor"));
-                gsap.to($ball, { duration: 0.3, xPercent: is_rtl()? 50 : -50,yPercent: -60, width: 110, height: 110, opacity: 1, borderWidth: 0, zIndex:1, backdropFilter: "blur(14px)",
+                gsap.to($ball, { duration: 0.3, xPercent: is_rtl()? 50 : -50,yPercent: -60, width: 80, height: 80, opacity: 1, borderWidth: 0, zIndex:1, backdropFilter: "blur(14px)",
                 backgroundColor: color,});
                 gsap.to(".ball-view", { duration: 0.3, scale: 1, autoAlpha: 1 });
             }).on("mouseleave", function() {

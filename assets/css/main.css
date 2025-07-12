@@ -4981,6 +4981,7 @@ body.tp-magic-cursor #magic-cursor {
   letter-spacing: -0.01em;
   color: var(--tp-common-black);
   font-family: var(--tp-ff-clash-medium);
+  cursor: pointer;
 }
 .tp-header-8-lang a:not(:last-child) {
   margin-right: 8px;
@@ -9390,14 +9391,14 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-footer-widget-title {
   font-weight: 700;
-  font-size: 80px;
+  font-size: 60px;
   line-height: 1;
   margin-bottom: 30px;
   letter-spacing: -0.06em;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-footer-widget-title {
-    font-size: 75px;
+    font-size: 65px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -9476,6 +9477,12 @@ body.tp-magic-cursor #magic-cursor {
 .tp-footer-widget-info {
   margin-bottom: 15px;
 }
+@media screen and (max-width: 1200px) {
+  .tp-footer-widget-info {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .tp-footer-widget-info a {
   display: block;
   font-weight: 400;
@@ -9526,13 +9533,16 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-copyright-big-text {
   font-weight: 800;
-  font-size: 259px;
+  font-size: 219px;
   line-height: 1;
   letter-spacing: -16px;
 }
+.tp-copyright-big-text span {
+  color: var(--tp-common-red-2);
+}
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-copyright-big-text {
-    font-size: 239px;
+    font-size: 219px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -10187,7 +10197,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 @media only screen and (min-width: 1600px) and (max-width: 1700px) {
   .creative-footer-style .tp-copyright-big-text {
-    font-size: 225px;
+    font-size: 219px;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
@@ -14736,7 +14746,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-hero-5-title span {
   -webkit-text-stroke: 2px var(--tp-cream-2);
-  text-stroke: 2px var(--tp-cream-2);
+  stroke: 2px var(--tp-cream-2);
   color: transparent;
 }
 .tp-hero-5-title-box {
@@ -31681,6 +31691,7 @@ body.tp-magic-cursor #magic-cursor {
   display: block;
   background-size: 0% 100%;
   background-repeat: no-repeat;
+  background-clip: text;
   -webkit-background-clip: text;
   font-family: var(--tp-ff-mango-bold);
   -webkit-text-fill-color: transparent;
@@ -43883,7 +43894,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 .agntix-light .tp-hero-5-title span {
   -webkit-text-stroke: 2px var(--tp-common-black-8);
-  text-stroke: 2px var(--tp-common-black-8);
+  stroke: 2px var(--tp-common-black-8);
 }
 .agntix-light .tp-hero-5-title {
   color: var(--tp-common-black-8);
