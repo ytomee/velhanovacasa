@@ -89,7 +89,7 @@
                             </div>
                             <div class="tp-header-8-middle">
                                 <div class="tp-header-logo">
-                                    <a href="index.html"><img data-width="120" src="assets/img/logo/logoBlack.svg" alt=""></a>
+                                    <a href="/"><img data-width="120" src="assets/img/logo/logoBlack.svg" alt=""></a>
                                 </div>
                             </div>
                             <div class="tp-header-8-right d-flex align-items-center d-none d-md-inline-flex">
@@ -99,7 +99,7 @@
                                     </a>
                                 </div>
                                 <div class="tp-header-8-btn">
-                                    <a class="tp-btn-border-2" href="contact.html">
+                                    <a class="tp-btn-border-2" href="contact.php">
                                         Contacte-nos
                                         <span>
                                             <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,71 +119,71 @@
                 <li class="has-dropdown p-static is-active">
                     <a href="#">Home</a>
                     <ul class="tp-submenu submenu">
-                        <li><a href="index.html">Modern Agency</a></li>
-                        <li><a href="index-digital-marketing-light.html">Digital Marketing</a></li>
-                        <li><a href="index-design-agency-light.html">Design Agency</a></li>
-                        <li><a href="index-unique-ai-image-light.html">Unique AI Images</a></li>
-                        <li><a href="index-corporate-agency-light.html">Corporate Agency</a></li>
-                        <li><a href="index-mobile-application-light.html">Mobile Application</a></li>
-                        <li><a href="index-it-solution-light.html">IT Solutions</a></li>
-                        <li><a href="index-cryptocurrency-light.html">Cryptocurrency</a></li>
+                        <li><a href="/">Modern Agency</a></li>
+                        <li><a href="index-digital-marketing-light.php">Digital Marketing</a></li>
+                        <li><a href="index-design-agency-light.php">Design Agency</a></li>
+                        <li><a href="index-unique-ai-image-light.php">Unique AI Images</a></li>
+                        <li><a href="index-corporate-agency-light.php">Corporate Agency</a></li>
+                        <li><a href="index-mobile-application-light.php">Mobile Application</a></li>
+                        <li><a href="index-it-solution-light.php">IT Solutions</a></li>
+                        <li><a href="index-cryptocurrency-light.php">Cryptocurrency</a></li>
                     </ul>
                 </li>
                 <li class="has-dropdown p-static is-active">
                     <a href="#">Pages</a>
                     <ul class="tp-submenu submenu">
-                        <li><a href="about-me-light.html">About Me</a></li>
-                        <li><a href="about-us-light.html">About Us</a></li>
-                        <li><a href="service-1-light.html">Services</a></li>
-                        <li><a href="service-details-2-light.html">Service Details</a></li>
-                        <li><a href="career-light.html">Carrer</a></li>
-                        <li><a href="career-details-light.html">Carrer Details</a></li>
-                        <li><a href="team-light.html">Team</a></li>
-                        <li><a href="team-details-light.html">Team Details</a></li>
-                        <li><a href="pricing-light.html">Pricing</a></li>
-                        <li><a href="faq-light.html">Faq's</a></li>
+                        <li><a href="about-me-light.php">About Me</a></li>
+                        <li><a href="about-us-light.php">About Us</a></li>
+                        <li><a href="service-1-light.php">Services</a></li>
+                        <li><a href="service-details-2-light.php">Service Details</a></li>
+                        <li><a href="career-light.php">Carrer</a></li>
+                        <li><a href="career-details-light.php">Carrer Details</a></li>
+                        <li><a href="team-light.php">Team</a></li>
+                        <li><a href="team-details-light.php">Team Details</a></li>
+                        <li><a href="pricing-light.php">Pricing</a></li>
+                        <li><a href="faq-light.php">Faq's</a></li>
                     </ul>
                 </li>
                 <li class="has-dropdown p-static is-active">
                     <a href="#">Projects</a>
                     <ul class="tp-submenu submenu">
-                        <li><a href="portfolio-webgl-showcase.html">Webgl Showcase</a></li>
-                        <li><a href="portfolio-coverflow-slider-light.html">Coverflow Slider</a></li>
-                        <li><a href="portfolio-creative-thumb-slider.html">Creative Thumb Slider</a></li>
-                        <li><a href="portfolio-creative-skew-slider.html">Creative Skew Slider</a></li>
-                        <li><a href="portfolio-creative-text-slider.html">Creative Text Slider</a></li>
-                        <li><a href="portfolio-parallax-slider.html">Parallax Slider</a></li>
-                        <li><a href="portfolio-perspective-slider-light.html">Paspective Showcase</a></li>
+                        <li><a href="portfolio-webgl-showcase.php">Webgl Showcase</a></li>
+                        <li><a href="portfolio-coverflow-slider-light.php">Coverflow Slider</a></li>
+                        <li><a href="portfolio-creative-thumb-slider.php">Creative Thumb Slider</a></li>
+                        <li><a href="portfolio-creative-skew-slider.php">Creative Skew Slider</a></li>
+                        <li><a href="portfolio-creative-text-slider.php">Creative Text Slider</a></li>
+                        <li><a href="portfolio-parallax-slider.php">Parallax Slider</a></li>
+                        <li><a href="portfolio-perspective-slider-light.php">Paspective Showcase</a></li>
                     </ul>
                 </li>
                 <li class="has-dropdown is-active">
                     <a href="#">Blog</a>
                     <ul class="tp-submenu submenu">
-                        <li><a href="blog-grid-light.html">Blog Grid</a></li>
-                        <li><a href="blog-standard-light.html">Blog Classic</a></li>
-                        <li><a href="blog-list-light.html">Blog Listing</a></li>
-                        <li><a href="blog-masonry-light.html">Masonry</a></li>
-                        <li><a href="blog-details-light.html">Blog Single Post</a></li>
+                        <li><a href="blog-grid-light.php">Blog Grid</a></li>
+                        <li><a href="blog-standard-light.php">Blog Classic</a></li>
+                        <li><a href="blog-list-light.php">Blog Listing</a></li>
+                        <li><a href="blog-masonry-light.php">Masonry</a></li>
+                        <li><a href="blog-details-light.php">Blog Single Post</a></li>
                     </ul>
                 </li>
                 <li class="has-dropdown is-active">
                     <a href="#">Shop</a>
                     <ul class="tp-submenu submenu">
-                        <li><a href="index-shop-modern-light.html">Shop Modern</a></li>
-                        <li><a href="shop-details.html">Shop Details</a></li>
-                        <li><a href="my-account.html">My Account</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
-                        <li><a href="wishlist.html">Wishlist</a></li>
-                        <li><a href="login.html">LogIn</a></li>
+                        <li><a href="index-shop-modern-light.php">Shop Modern</a></li>
+                        <li><a href="shop-details.php">Shop Details</a></li>
+                        <li><a href="my-account.php">My Account</a></li>
+                        <li><a href="cart.php">Cart</a></li>
+                        <li><a href="checkout.php">Checkout</a></li>
+                        <li><a href="wishlist.php">Wishlist</a></li>
+                        <li><a href="login.php">LogIn</a></li>
                     </ul>
                 </li>
                 <li class="has-dropdown is-active">
                     <a href="#">Contact</a>
                     <ul class="tp-submenu submenu">
-                        <li><a href="contact-me-light.html">Contact Me</a></li>
-                        <li><a href="contact-us-light.html">Contact Us</a></li>
-                        <li><a href="contact.html">Get In Touch</a></li>
+                        <li><a href="contact-me-light.php">Contact Me</a></li>
+                        <li><a href="contact-us-light.php">Contact Us</a></li>
+                        <li><a href="contact.php">Get In Touch</a></li>
                     </ul>
                 </li>
             </ul>
@@ -204,7 +204,7 @@
             <div class="tp-offcanvas-2-left left-box">
                 <div class="tp-offcanvas-2-left-wrap d-flex justify-content-between align-items-center">
                     <div class="tp-offcanvas-2-logo">
-                        <a href="index.html">
+                        <a href="/">
                             <img class="logo-1" data-width="140" src="assets/img/logo/logo-white.png" alt="">
                             <img class="logo-2" data-width="140" src="assets/img/logo/logo-black.png" alt="">
                         </a>
@@ -372,7 +372,7 @@
                                                             </svg></span>
                                                     </div>
                                                     <div class="ar-about-funfact-item-content">
-                                                        <a class="tp-line-white" href="contact.html">Start Chat</a>
+                                                        <a class="tp-line-white" href="contact.php">Start Chat</a>
                                                     </div>
                                                 </div>
                                             </div>

@@ -4943,6 +4943,8 @@ body.tp-magic-cursor #magic-cursor {
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 .tp-header-8-wrapper {
+  max-width: 1430px;
+  margin: auto;
   padding: 18px 0;
 }
 .tp-header-8-border {
@@ -44899,8 +44901,9 @@ body.tp-magic-cursor #magic-cursor {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .agntix-light .tp-portfolio-inner-tab-wrap nav .nav-tabs .nav-link.active, .agntix-light .tp-portfolio-inner-tab-wrap nav .nav-tabs .nav-link:hover {
-  background: var(--tp-grey-2);
-  border: 1px solid var(--tp-grey-2);
+  background: var(--tp-common-black-2);
+  border: 1px solid var(--tp-common-black-2);
+  color: var(--tp-common-white);
 }
 .agntix-light .tp-portfolio-inner-title {
   color: var(--tp-common-black);

@@ -110,5 +110,9 @@ return [
     "company" => [ "old", "new", "home" ],
     "terms" => "Terms and Conditions",
     "privacy" => "Privacy Policy"
-   ]
+  ],
+    "portfolio" => [
+    "label" => "Portfolio",
+    "title" => ["All of", "our houses."],
+  ]
 ];
