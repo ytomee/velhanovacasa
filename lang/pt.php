@@ -114,5 +114,45 @@ return [
   "portfolio" => [
     "label" => "Portfólio",
     "title" => ["Todas as", "nossas casas."],
-  ]
+  ],
+  "details" => [
+    "gallery" => "Ver galeria",
+    "title" => "O nosso impacto",
+    "subtitle" => "A nossa abordagem",
+    "description" => "O nosso percurso é feito de projetos transformadores: casas que renascem com conforto, estilo e funcionalidade. Renovamos para valorizar — o imóvel, o espaço e a vida de quem o habita.",
+    "stats" => [
+      ["85", "das casas vendidas em menos de 3 meses"],
+      ["95", "de compradores satisfeitos"],
+      ["100", "dos imóveis legalizados e prontos a habitar"],
+      ["80", "de valorização média após renovação"]
+    ],
+  ],
+  "contacts" => [
+    "title" => ["Alguma questão?", "Pode falar connosco", "por aqui!"],
+    "subtitle" => "Contacte-nos",
+    "touch" => [
+      "get" =>["Entre em", "contacto"],
+      "directly" => "Contacte-nos diretamente",
+      "support" => "Precisa de apoio?",
+      "chat" => "Começar a falar",
+    ],
+    "form" => [
+      "title" => ["Diga-nos o", "que precisa."],
+      "name" => "Nome completo",
+      "email" => "Email",
+      "help" => "Como o podemos ajudar?",
+      "send" => "Enviar mensagem",
+    ],
+  ],
+  "canvas" => [
+    "items" => [
+      [ "label" => "Ínicio", "href" => "/" ],
+      [ "label" => "Casas", "href" => "/houses.php" ],
+      [ "label" => "Contactos", "href" => "/contact.php" ]
+    ],
+    "touch" => "Entre em contacto",
+    "phone" => "Telemóvel",
+    "address" => "Morada",
+    "close" => "Fechar"
+  ],
 ];

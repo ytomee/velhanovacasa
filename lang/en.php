@@ -2,7 +2,7 @@
 return [
   "contactUs" => "Contact us",
   "hero" => [
-    "title" => ["Our homes deliver", "the", "best comfort"],
+    "title" => ["Our homes"," deliver", "the", "best comfort"],
     "button" => "See new opportunities"
   ],
   "tags" => [
@@ -111,8 +111,48 @@ return [
     "terms" => "Terms and Conditions",
     "privacy" => "Privacy Policy"
   ],
-    "portfolio" => [
+  "portfolio" => [
     "label" => "Portfolio",
     "title" => ["All of", "our houses."],
-  ]
+  ],
+  "details" => [
+    "gallery" => "See gallery",
+    "title" => "Our Impact",
+    "subtitle" => "Our approach",
+    "description" => "Our journey is shaped by transformative projects: homes reborn with comfort, style, and functionality. We renovate to bring value — to the property, the space, and the lives of those who live in it.",
+    "stats" => [
+      ["85", "of homes sold in under 3 months"],
+      ["95", "of satisfied buyers"],
+      ["100", "of properties legal and move-in ready"],
+      ["80", "average increase in property value"]
+    ],
+  ],
+  "contacts" => [
+    "title" => ["Any questions?", "You can talk to us", "right here!"],
+    "subtitle" => "Contact us",
+    "touch" => [
+      "get" => ["Get in", "touch"],
+      "directly" => "Contact us directly",
+      "support" => "Need support?",
+      "chat" => "Start chatting",
+    ],
+    "form" => [
+      "title" => ["Tell us what", "you need."],
+      "name" => "Full name",
+      "email" => "Email",
+      "help" => "How can we help you?",
+      "send" => "Send message",
+    ],
+  ],
+  "canvas" => [
+    "items" => [
+      [ "label" => "Home", "href" => "/" ],
+      [ "label" => "Houses", "href" => "/houses.php" ],
+      [ "label" => "Contacts", "href" => "/contact.php" ]
+    ],
+    "touch" => "Get in touch",
+    "phone" => "Phone",
+    "address" => "Address",
+    "close" => "Close"
+  ],
 ];

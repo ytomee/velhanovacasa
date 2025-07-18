@@ -46,10 +46,24 @@
                                     <div class="ar-hero-title-box text-center tp_fade_anim" data-delay=".3">
                                         <h2 class="ar-hero-title mb-15">
                                             <span><img width="160" height="103" class="ar-hero-shape-1 d-none d-md-inline-block" src="assets/img/home-08/hero/orange.png" alt=""></span>
-                                            <span><?= t('hero.title.0') ?></span>&nbsp;
-                                            <span><img width="176" height="76" class="ar-hero-shape-2 d-none d-md-inline-block" src="assets/img/home-08/hero/dots.png" alt=""></span>&nbsp;
-                                            <span><?= t('hero.title.1') ?></span>
-                                            <i><span><?= t('hero.title.2') ?></span><span><img width="160" height="103" class="ar-hero-shape-3 d-none d-md-inline-block" src="assets/img/home-08/hero/black.png" alt=""></span></i>
+                                            
+                                            <?php if ($lang === 'en'): ?>
+                                                <span><?= t('hero.title.0') ?></span> <br>
+                                                <span><?= t('hero.title.1') ?></span>
+                                                <span><img width="176" height="76" class="ar-hero-shape-2 d-none d-md-inline-block" src="assets/img/home-08/hero/dots.png" alt=""></span>
+                                                <span><?= t('hero.title.2') ?></span> <br>
+                                                <span><?= t('hero.title.3') ?></span>
+                                                <span><img width="160" height="103" class="ar-hero-shape-3 d-none d-md-inline-block" src="assets/img/home-08/hero/black.png" alt=""></span>
+                                            <?php else: ?>
+                                                <span><?= t('hero.title.0') ?></span>
+                                                <span><img width="176" height="76" class="ar-hero-shape-2 d-none d-md-inline-block" src="assets/img/home-08/hero/dots.png" alt=""></span>
+                                                <span><?= t('hero.title.1') ?></span>
+                                                <i>
+                                                    <span><?= t('hero.title.2') ?></span>
+                                                    <span><img width="160" height="103" class="ar-hero-shape-3 d-none d-md-inline-block" src="assets/img/home-08/hero/black.png" alt=""></span>
+                                                </i>
+                                            <?php endif; ?>
+
                                         </h2>
                                     </div>
                                     <div class="ar-hero-btn text-center tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">

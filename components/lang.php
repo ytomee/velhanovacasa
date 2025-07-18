@@ -1,8 +1,16 @@
 <?php
+if (isset($_GET['lang'])) {
+    $lang = $_GET['lang'];
+    setcookie('lang', $lang, time() + 31536000, '/');
+}
+elseif (isset($_COOKIE['lang'])) {
+    $lang = $_COOKIE['lang'];
+}
+else {
+    $lang = 'pt';
+}
 
-$lang = $_GET['lang'] ?? 'pt';
 $translationFile = __DIR__ . "/../lang/$lang.php";
-
 if (!file_exists($translationFile)) {
     $translationFile = __DIR__ . "/../lang/pt.php";
 }
@@ -17,5 +25,4 @@ function t($path) {
     }
     return $value;
 }
-
 ?>

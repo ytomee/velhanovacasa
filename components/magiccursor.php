@@ -10,6 +10,9 @@ switch ($currentPage) {
     case 'houses.php':
         $cursorClass = 'cursor-bg-white';
         break;
+    case 'house.php':
+        $cursorClass = 'cursor-bg-white';
+        break;
     default:
         $cursorClass = 'cursor-bg-red-2';
         break;
