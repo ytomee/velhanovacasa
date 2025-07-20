@@ -68,21 +68,17 @@
 <!-- header area end -->
 
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const currentLang = localStorage.getItem("lang") || getCookie("lang") || "pt";
+  document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentLang = urlParams.get("hl") || "pt";
 
-        document.querySelectorAll('.tp-header-8-lang a').forEach(link => {
-            const lang = link.getAttribute("data-lang");
-            if (lang === currentLang) {
-                link.classList.add("active");
-            } else {
-                link.classList.remove("active");
-            }
-        });
+    document.querySelectorAll('.tp-header-8-lang a').forEach(link => {
+      const lang = link.getAttribute("data-lang");
+      if (lang === currentLang) {
+        link.classList.add("active");
+      } else {
+        link.classList.remove("active");
+      }
     });
-
-    function getCookie(name) {
-        const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
-    return match ? match[2] : null;
-    }
+  });
 </script>

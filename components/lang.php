@@ -1,18 +1,18 @@
 <?php
-if (isset($_GET['lang'])) {
-    $lang = $_GET['lang'];
-    setcookie('lang', $lang, time() + 31536000, '/');
+if (!isset($_GET['hl'])) {
+    $defaultLang = 'pt';
+    $query = $_SERVER['QUERY_STRING'];
+    $url = $_SERVER['PHP_SELF'] . (empty($query) ? "?hl=$defaultLang" : "?$query&hl=$defaultLang");
+    header("Location: $url");
+    exit();
 }
-elseif (isset($_COOKIE['lang'])) {
-    $lang = $_COOKIE['lang'];
-}
-else {
-    $lang = 'pt';
-}
+
+$lang = $_GET['hl'];
 
 $translationFile = __DIR__ . "/../lang/$lang.php";
 if (!file_exists($translationFile)) {
     $translationFile = __DIR__ . "/../lang/pt.php";
+    $lang = 'pt';
 }
 $t = include $translationFile;
 
