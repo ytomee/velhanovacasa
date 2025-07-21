@@ -18,3 +18,14 @@ document.querySelectorAll('[data-lang]').forEach(link => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const currentLang = new URLSearchParams(window.location.search).get("hl") || "pt";
+
+  document.querySelectorAll('a[href]:not([href^="#"]):not([href^="mailto:"]):not([href^="tel:"])').forEach(link => {
+    const url = new URL(link.href, window.location.origin);
+
+    url.searchParams.set("hl", currentLang);
+    link.href = url.toString();
+  });
+});
+
